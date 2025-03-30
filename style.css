@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+.mainContainer {
+    width: 60%;
+}
+
+#logo {
+    background-color: orange;
+    padding: 9px;
+    margin: 0px;
+}
+
+.intro {
+    margin: 50px 0px 0px 200px;
+}
+.intro p{
+    padding: 8%;
+}
+
+
+.header {
+    background-color: orange;
+    text-align: center;
+    padding: 50px;
+    display: flex;
+}
+
+img {
+    border-radius: 100%;
+    width: 221px;
+    height: 213px;
+}
+
+.header h1 {
+    margin: 10px 0 0 10px;
+}
+
+.header p {
+    margin: 5px 0;
+}
+
+.skills , .education{
+    height: 160px;
+}
+
+.skills,
+.experience {
+    background-color: orange;
+}
+
+.about-me , .education{
+    background-color: white;
+}
+
+.about-me,
+.skills,
+.education,
+.experience {
+    padding: 30px;
+}
+
+.about-me h2,
+.skills h2,
+.education h2,
+.experience h2 {
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.about-me p {
+    background: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.skill {
+    background: #FFC857;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+   
+}
+
+.skill.green {
+    background: #9BC53D;
+}
+
+.education ul {
+    /* list-style: none; */
+    padding: 0;
+}
+
+.education li {
+    margin: 5px 0 0 50px;
+}
+
+.education li ul {
+    margin-top: 5px;
+    padding-left: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    font-family:fantasy;
+    background-color: white;
+}
